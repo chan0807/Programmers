@@ -1,4 +1,4 @@
-#include "AlgorithmKing.h"
+﻿#include "AlgorithmKing.h"
 
 int main()
 {

@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 
 #include <string>
 #include <vector>
@@ -7,11 +7,11 @@
 
 using namespace std;
 
-// Hash 1. ¿ÏÁÖÇÏÁö ¸øÇÑ ¼±¼ö
+// Hash 1. ì™„ì£¼í•˜ì§€ ëª»í•œ ì„ ìˆ˜
 string HashOne(vector<string> participant, vector<string> completion) {
 	string answer = "";
 
-	// ÇØ½ÃÈ°¿ë
+	// í•´ì‹œí™œìš©
 	unordered_map<string, int> countMap;
 
 	for (const string& name : completion)
@@ -35,11 +35,11 @@ string HashOne(vector<string> participant, vector<string> completion) {
 	return answer;
 }
 
-// Hash 2. ÀüÈ­¹øÈ£ ¸ñ·Ï
+// Hash 2. ì „í™”ë²ˆí˜¸ ëª©ë¡
 bool HashTwo(vector<string> phone_book) {
     bool answer = true;
 
-    // ÇØ½Ã È°¿ë
+    // í•´ì‹œ í™œìš©
     unordered_map<string, int> prefixMap;
 
     for (const string& number : phone_book)
@@ -47,7 +47,7 @@ bool HashTwo(vector<string> phone_book) {
         prefixMap[number] = 1;
     }
 
-    // °¢ ¹øÈ£ÀÇ Á¢µÎ»ç ¿©ºÎ È®ÀÎ
+    // ê° ë²ˆí˜¸ì˜ ì ‘ë‘ì‚¬ ì—¬ë¶€ í™•ì¸
     for (const string& number : phone_book)
     {
         for (int i = 1; i <= number.length(); ++i)
