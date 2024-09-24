@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{2ca3aaa4-b938-4701-a935-b48f3c25aea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{a85d5303-5dc3-4574-bfec-5dc5161671b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\스택/큐">
+      <UniqueIdentifier>{f4ec5dc4-8961-425f-86f3-8063e8eda96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\스택/큐\Lv2">
+      <UniqueIdentifier>{4fa0f45f-70cc-48ac-95bf-3ce75201411d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Programmers.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="기능개발.cpp">
+      <Filter>source\스택/큐\Lv2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
