@@ -10,11 +10,11 @@ using namespace std;
 
 /*------------------------------------------- Queue/Stack -------------------------------------------*/
 
-// 1. ±â´É°³¹ß
+// 1. ê¸°ëŠ¥ê°œë°œ
 vector<int> QueueOne(vector<int> progresses, vector<int> speeds) {
 	vector<int> answer;
 
-	// ³ªÀÇ Ç®ÀÌ
+	// ë‚˜ì˜ í’€ì´
 	while (!progresses.empty())
 	{
 		int nCount = progresses.size();
@@ -36,11 +36,11 @@ vector<int> QueueOne(vector<int> progresses, vector<int> speeds) {
 		}
 	}
 
-	//Queue È°¿ë
+	//Queue í™œìš©
 	queue<int> progressQueue;
 	queue<int> speedQueue;
 
-	// progresses¿Í speeds¸¦ °¢°¢ Å¥¿¡ »ğÀÔ
+	// progressesì™€ speedsë¥¼ ê°ê° íì— ì‚½ì…
 	for (int i = 0; i < progresses.size(); i++)
 	{
 		progressQueue.push(progresses[i]);
@@ -49,10 +49,10 @@ vector<int> QueueOne(vector<int> progresses, vector<int> speeds) {
 
 	while (!progressQueue.empty())
 	{
-		// ¸ğµç ÀÛ¾÷¿¡ ´ëÇØ ÇÏ·çÄ¡ ÁøÇà »óÈ²À» ¾÷µ¥ÀÌÆ®
+		// ëª¨ë“  ì‘ì—…ì— ëŒ€í•´ í•˜ë£¨ì¹˜ ì§„í–‰ ìƒí™©ì„ ì—…ë°ì´íŠ¸
 		int nCount = 0;
 
-		// °¢ ÀÛ¾÷À» ¼Óµµ¸¸Å­ ÁøÇà
+		// ê° ì‘ì—…ì„ ì†ë„ë§Œí¼ ì§„í–‰
 		int queueSize = progressQueue.size();
 		for (int i = 0; i < queueSize; i++)
 		{
@@ -61,9 +61,9 @@ vector<int> QueueOne(vector<int> progresses, vector<int> speeds) {
 			int currentSpeed = speedQueue.front();
 			speedQueue.pop();
 
-			currentProgress += currentSpeed; // ¼Óµµ¸¸Å­ ÁøÇà
+			currentProgress += currentSpeed; // ì†ë„ë§Œí¼ ì§„í–‰
 
-			// ´Ù½Ã Å¥¿¡ »ğÀÔ (100% ¿Ï·áµÇÁö ¾ÊÀº ÀÛ¾÷µé¸¸)
+			// ë‹¤ì‹œ íì— ì‚½ì… (100% ì™„ë£Œë˜ì§€ ì•Šì€ ì‘ì—…ë“¤ë§Œ)
 			if (currentProgress < 100)
 			{
 				progressQueue.push(currentProgress);
@@ -71,17 +71,17 @@ vector<int> QueueOne(vector<int> progresses, vector<int> speeds) {
 			}
 		}
 
-		// ¿Ï·áµÈ ÀÛ¾÷µéÀ» Ã¼Å©
+		// ì™„ë£Œëœ ì‘ì—…ë“¤ì„ ì²´í¬
 		while (!progressQueue.empty() && progressQueue.front() >= 100)
 		{
 			progressQueue.pop();
 			speedQueue.pop();
-			nCount++; // ¿Ï·áµÈ ÀÛ¾÷ °³¼ö Áõ°¡
+			nCount++; // ì™„ë£Œëœ ì‘ì—… ê°œìˆ˜ ì¦ê°€
 		}
 
 		if (nCount > 0)
 		{
-			answer.push_back(nCount); // ¿Ï·áµÈ ÀÛ¾÷ ¼ö¸¦ ÀúÀå
+			answer.push_back(nCount); // ì™„ë£Œëœ ì‘ì—… ìˆ˜ë¥¼ ì €ì¥
 		}
 	}
 
@@ -90,11 +90,11 @@ vector<int> QueueOne(vector<int> progresses, vector<int> speeds) {
 
 /*------------------------------------------- Hash -------------------------------------------*/
 
-// 1. ¿ÏÁÖÇÏÁö ¸øÇÑ ¼±¼ö
+// 1. ì™„ì£¼í•˜ì§€ ëª»í•œ ì„ ìˆ˜
 string HashOne(vector<string> participant, vector<string> completion) {
 	string answer = "";
 
-	// ÇØ½ÃÈ°¿ë
+	// í•´ì‹œí™œìš©
 	unordered_map<string, int> countMap;
 
 	for (const string& name : completion)
@@ -118,11 +118,11 @@ string HashOne(vector<string> participant, vector<string> completion) {
 	return answer;
 }
 
-// 2. ÀüÈ­¹øÈ£ ¸ñ·Ï
+// 2. ì „í™”ë²ˆí˜¸ ëª©ë¡
 bool HashTwo(vector<string> phone_book) {
     bool answer = true;
 
-    // ÇØ½Ã È°¿ë
+    // í•´ì‹œ í™œìš©
     unordered_map<string, int> prefixMap;
 
     for (const string& number : phone_book)
@@ -130,7 +130,7 @@ bool HashTwo(vector<string> phone_book) {
         prefixMap[number] = 1;
     }
 
-    // °¢ ¹øÈ£ÀÇ Á¢µÎ»ç ¿©ºÎ È®ÀÎ
+    // ê° ë²ˆí˜¸ì˜ ì ‘ë‘ì‚¬ ì—¬ë¶€ í™•ì¸
     for (const string& number : phone_book)
     {
         for (int i = 1; i <= number.length(); ++i)
