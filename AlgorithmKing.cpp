@@ -2,8 +2,8 @@
 
 int main()
 {
-    vector<string> participant = { "leo", "kiki", "eden" };
-    vector<string> completion = {"eden", "kiki"};
+    vector<int> a = { 93, 30, 55};
+    vector<int> b = { 1, 30, 5 };
 
-    string answer = HashOne(participant, completion);
+    vector<int> answer = QueueOne(a, b);
 }
