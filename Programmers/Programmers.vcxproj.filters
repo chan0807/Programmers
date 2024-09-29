@@ -10,16 +10,21 @@
     <Filter Include="source\스택/큐">
       <UniqueIdentifier>{f4ec5dc4-8961-425f-86f3-8063e8eda96a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\스택/큐\Lv2">
-      <UniqueIdentifier>{4fa0f45f-70cc-48ac-95bf-3ce75201411d}</UniqueIdentifier>
+    <Filter Include="source\해시">
+      <UniqueIdentifier>{94428cd1-3668-4fa9-a7ee-512b12a4634d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Programmers.cpp">
       <Filter>main</Filter>
     </ClCompile>
-    <ClCompile Include="기능개발.cpp">
-      <Filter>source\스택/큐\Lv2</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Hash.h">
+      <Filter>source\해시</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueStack.h">
+      <Filter>source\스택/큐</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
