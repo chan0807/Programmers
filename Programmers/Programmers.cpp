@@ -2,10 +2,11 @@
 #include "Hash.h"
 #include "QueueStack.h"
 
+using namespace std;
+
 int main()
 {
-    std::vector<int> a = { 1, 2, 2, 3, 9, 1, 9, 2 };
-    int b = 5;
+    vector<int> a = { 1, 2, 3, 2, 3};
 
-    bool answer = QueueThree1(a, b);
+    vector<int> answer = QueueFour(a);
 }
