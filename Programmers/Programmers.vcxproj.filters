@@ -21,5 +21,11 @@
     <ClCompile Include="기능개발.cpp">
       <Filter>source\스택/큐\Lv2</Filter>
     </ClCompile>
+    <ClCompile Include="올바른_괄호.cpp">
+      <Filter>source\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격.cpp">
+      <Filter>source\스택/큐\Lv2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
