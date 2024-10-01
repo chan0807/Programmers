@@ -6,8 +6,39 @@
 #include <algorithm>
 #include <queue>
 #include <unordered_set>
+#include <stack>
 
 using namespace std;
+
+// 4. 주식가격
+vector<int> QueueFour(vector<int> prices) {
+	int nSize = prices.size();
+	vector<int> answer(nSize, 0);
+	stack<int> stIndex;
+
+	for (int i = 0; i < nSize; ++i)
+	{
+		while (!stIndex.empty() && prices[i] < prices[stIndex.top()])
+		{
+			int nFrontIndex = stIndex.top();
+			stIndex.pop();
+
+			answer[nFrontIndex] = i - nFrontIndex;
+		}
+
+		stIndex.push(i);
+	}
+
+	while (!stIndex.empty())
+	{
+		int nLeftFrontIndex = stIndex.top();
+		stIndex.pop();
+
+		answer[nLeftFrontIndex] = nSize - nLeftFrontIndex - 1;
+	}
+
+	return answer;
+}
 
 // 3. 프로세스 - 1: vector로 정면 돌파....
 int QueueThree1(vector<int> priorities, int location)
