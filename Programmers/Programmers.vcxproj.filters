@@ -13,11 +13,14 @@
     <Filter Include="source\스택/큐\Lv2">
       <UniqueIdentifier>{4fa0f45f-70cc-48ac-95bf-3ce75201411d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\힙">
+      <UniqueIdentifier>{090a5121-389e-46fe-8d05-93e47ee9be71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\힙\Lv2">
+      <UniqueIdentifier>{a6cb375d-8b19-4242-ae25-cb13ea43767d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Programmers.cpp">
-      <Filter>main</Filter>
-    </ClCompile>
     <ClCompile Include="기능개발.cpp">
       <Filter>source\스택/큐\Lv2</Filter>
     </ClCompile>
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="주식가격.cpp">
       <Filter>source\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="더_맵게.cpp">
+      <Filter>source\힙\Lv2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
