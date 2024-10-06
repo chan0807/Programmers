@@ -7,12 +7,6 @@
     <Filter Include="source">
       <UniqueIdentifier>{a85d5303-5dc3-4574-bfec-5dc5161671b6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\스택/큐">
-      <UniqueIdentifier>{f4ec5dc4-8961-425f-86f3-8063e8eda96a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\해시">
-      <UniqueIdentifier>{94428cd1-3668-4fa9-a7ee-512b12a4634d}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Programmers.cpp">
@@ -20,11 +14,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Hash.h">
-      <Filter>source\해시</Filter>
-    </ClInclude>
     <ClInclude Include="QueueStack.h">
-      <Filter>source\스택/큐</Filter>
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>source</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
