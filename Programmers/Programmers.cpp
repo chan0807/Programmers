@@ -7,8 +7,7 @@ using namespace std;
 
 int main()
 {
-    vector<int> a = { 1, 2, 3, 9, 10, 12};
-    int b = 7;
+    vector<vector<int>> a = { {0, 3}, {1, 9}, {2, 6} };
 
-    int answer = HeapOne(a,b);
+    int answer = HeapTwo(a);
 }
