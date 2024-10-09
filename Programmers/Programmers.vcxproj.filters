@@ -19,6 +19,9 @@
     <Filter Include="source\힙\Lv2">
       <UniqueIdentifier>{a6cb375d-8b19-4242-ae25-cb13ea43767d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\힙\Lv3">
+      <UniqueIdentifier>{d8e0731d-40a9-415a-b5f2-11d5259c38a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="더_맵게.cpp">
       <Filter>source\힙\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="디스크_컨트롤러.cpp">
+      <Filter>source\힙\Lv3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
