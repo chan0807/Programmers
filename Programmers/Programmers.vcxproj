@@ -130,6 +130,7 @@
     <ClCompile Include="Programmers.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Array.h" />
     <ClInclude Include="Hash.h" />
     <ClInclude Include="Heap.h" />
     <ClInclude Include="QueueStack.h" />
