@@ -39,5 +39,8 @@
     <ClCompile Include="디스크_컨트롤러.cpp">
       <Filter>source\힙\Lv3</Filter>
     </ClCompile>
+    <ClCompile Include="이중우선순위큐.cpp">
+      <Filter>source\힙\Lv3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
