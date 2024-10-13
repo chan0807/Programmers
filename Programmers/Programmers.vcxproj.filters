@@ -22,6 +22,12 @@
     <Filter Include="source\힙\Lv3">
       <UniqueIdentifier>{d8e0731d-40a9-415a-b5f2-11d5259c38a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\정렬">
+      <UniqueIdentifier>{99d3dac9-7d61-47ac-88b8-a7773dc34ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\정렬\Lv1">
+      <UniqueIdentifier>{b572bb90-bb74-4cfb-838b-8d5c10674545}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -38,6 +44,12 @@
     </ClCompile>
     <ClCompile Include="디스크_컨트롤러.cpp">
       <Filter>source\힙\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="이중우선순위큐.cpp">
+      <Filter>source\힙\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="K번째수.cpp">
+      <Filter>source\정렬\Lv1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
