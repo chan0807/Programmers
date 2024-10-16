@@ -28,6 +28,9 @@
     <Filter Include="source\정렬\Lv1">
       <UniqueIdentifier>{b572bb90-bb74-4cfb-838b-8d5c10674545}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\정렬\Lv2">
+      <UniqueIdentifier>{e03ffe4a-4167-474b-a231-4831b50ff016}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="K번째수.cpp">
       <Filter>source\정렬\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="가장_큰_수.cpp">
+      <Filter>source\정렬\Lv2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
