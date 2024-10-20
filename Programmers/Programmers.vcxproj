@@ -134,6 +134,8 @@
     <ClCompile Include="기능개발.cpp" />
     <ClCompile Include="더_맵게.cpp" />
     <ClCompile Include="디스크_컨트롤러.cpp" />
+    <ClCompile Include="모의고사.cpp" />
+    <ClCompile Include="소수_찾기.cpp" />
     <ClCompile Include="올바른_괄호.cpp" />
     <ClCompile Include="이중우선순위큐.cpp" />
     <ClCompile Include="주식가격.cpp" />

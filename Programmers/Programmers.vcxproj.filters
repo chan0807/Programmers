@@ -31,6 +31,15 @@
     <Filter Include="source\정렬\Lv2">
       <UniqueIdentifier>{e03ffe4a-4167-474b-a231-4831b50ff016}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\완전탐색">
+      <UniqueIdentifier>{69858214-badb-4732-b6a0-99e3874a40f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\완전탐색\Lv1">
+      <UniqueIdentifier>{436711a9-3007-4841-98d9-866ea640643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\완전탐색\Lv2">
+      <UniqueIdentifier>{ca95da88-656f-47b2-b785-330216cdf126}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -56,6 +65,12 @@
     </ClCompile>
     <ClCompile Include="가장_큰_수.cpp">
       <Filter>source\정렬\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>source\완전탐색\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="소수_찾기.cpp">
+      <Filter>source\완전탐색\Lv2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
