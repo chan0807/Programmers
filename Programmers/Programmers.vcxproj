@@ -139,6 +139,7 @@
     <ClCompile Include="올바른_괄호.cpp" />
     <ClCompile Include="이중우선순위큐.cpp" />
     <ClCompile Include="주식가격.cpp" />
+    <ClCompile Include="체육복.cpp" />
     <ClCompile Include="카펫.cpp" />
     <ClCompile Include="피로도.cpp" />
   </ItemGroup>
