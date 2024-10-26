@@ -1,4 +1,4 @@
-#include <string>
+﻿#include <string>
 #include <vector>
 #include <queue>
 #include <algorithm>
@@ -7,7 +7,7 @@
 
 using namespace std;
 
-namespace �Ƿε� {
+namespace 피로도 {
     void GoAllDungeon(const vector<vector<int>>& dungeons, int nCurrentK, vector<bool>& bUsed, int nResult, int& nMaxResult) {
         nMaxResult = max(nMaxResult, nResult);
 
