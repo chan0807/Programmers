@@ -104,6 +104,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,10 +129,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Programmers.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="카펫.cpp" />
+    <ClCompile Include="피로도.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array.h" />
+    <ClInclude Include="FullSearch.h" />
     <ClInclude Include="Hash.h" />
     <ClInclude Include="Heap.h" />
     <ClInclude Include="QueueStack.h" />
