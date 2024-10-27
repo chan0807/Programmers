@@ -30,7 +30,8 @@ namespace 체육복 {
         }
     }
 
-    int solution(int n, vector<int> lost, vector<int> reserve) {
+    //완전탐색
+    int solution1(int n, vector<int> lost, vector<int> reserve) {
         int answer = 0;
 
         vector<bool> aHasStudent(n, true);
@@ -55,6 +56,47 @@ namespace 체육복 {
 
         vector<bool> aReserveUsed(reserve.size(), false);
         CalculateMax(aHasStudent, aReserveUsed, reserve, nInitialCount, answer);
+
+        return answer;
+    }
+
+    //탐욕법
+    int solution2(int n, std::vector<int> lost, std::vector<int> reserve) {
+        int answer = 0;
+
+        sort(lost.begin(), lost.end());
+        sort(reserve.begin(), reserve.end());
+
+        for (int i = 0; i < reserve.size(); ++i) {
+            for (int j = lost.size() - 1; j >= 0; --j) {
+                if (reserve[i] == lost[j]) {
+                    reserve[i] = -1;
+                    lost.erase(lost.begin() + j);
+                    break;
+                }
+            }
+        }
+
+        vector<bool> hasUniform(n, true);
+        for (int num : lost) {
+            hasUniform[num - 1] = false;
+        }
+
+        for (int num : reserve) {
+            if (num == -1) continue;
+            if (num - 1 > 0 && !hasUniform[num - 2]) {
+                hasUniform[num - 2] = true;
+            }
+            else if (num < n && !hasUniform[num]) {
+                hasUniform[num] = true;
+            }
+        }
+
+        for (int i = 0; i < n; ++i) {
+            if (hasUniform[i]) {
+                ++answer;
+            }
+        }
 
         return answer;
     }
