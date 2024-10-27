@@ -130,6 +130,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="체육복.cpp" />
     <ClCompile Include="카펫.cpp" />
     <ClCompile Include="피로도.cpp" />
   </ItemGroup>

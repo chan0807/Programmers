@@ -13,6 +13,12 @@
     <Filter Include="main\완전탐색\Lv2">
       <UniqueIdentifier>{47e505b9-e7ae-43a8-bf31-e812f4e6fded}</UniqueIdentifier>
     </Filter>
+    <Filter Include="main\탐욕법">
+      <UniqueIdentifier>{f964e1d9-c1bd-46b8-9e02-615cfbf0b1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\탐욕법\Lv1">
+      <UniqueIdentifier>{f5b5dcde-002b-4cfb-ad36-1119ee005937}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -23,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="카펫.cpp">
       <Filter>main\완전탐색\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="체육복.cpp">
+      <Filter>main\탐욕법\Lv1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
