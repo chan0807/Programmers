@@ -55,17 +55,28 @@ int combination(const vector<vector<int>>& sizes)
 }
 
 
-int solution(const vector<vector<int>>& sizes) {
+int solution(vector<vector<int>> sizes) {
 
-    return combination(sizes);
+    for_each(sizes.begin(), sizes.end(), [](vector<int>& size){
+        if(size[0] < size[1])
+            swap(size[0], size[1]); 
+    });
+
+    int max_w = 0; int max_h = 0;
+    for(auto size : sizes)
+    {
+        max_w = max(size[0], max_w);
+        max_h = max(size[1], max_h);
+    }
+    return max_w * max_h;
 }
 
-// int main()
-// {
-//     vector<vector<int>> sizes = {{10, 7}, {12, 3}, {8, 15}, {14, 7}, {5, 15}};
-//     int res = solution(sizes);
-//     cout << "result : " << res;
-//     // for(auto n : solution(arr, commands))
-//         // std::cout << "hi" ;/
-//     return 0;
-// }
+int main()
+{
+    vector<vector<int>> sizes = {{10, 7}, {12, 3}, {8, 15}, {14, 7}, {5, 15}};
+    int res = solution(sizes);
+    cout << "result : " << res;
+    // for(auto n : solution(arr, commands))
+        // std::cout << "hi" ;/
+    return 0;
+}
