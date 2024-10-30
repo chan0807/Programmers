@@ -46,6 +46,9 @@
     <Filter Include="source\탐욕법\Lv1">
       <UniqueIdentifier>{a9dbf1d7-f80d-4bc4-8974-05dae25269a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\탐욕법\Lv2">
+      <UniqueIdentifier>{b025a570-53a2-4cc4-b6b8-9fd94e50471b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -86,6 +89,9 @@
     </ClCompile>
     <ClCompile Include="체육복.cpp">
       <Filter>source\탐욕법\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="큰_수_만들기.cpp">
+      <Filter>source\탐욕법\Lv2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
