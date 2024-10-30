@@ -3,16 +3,15 @@
 
 using namespace std;
 
-namespace 체육복 {
-    int solution1(int n, vector<int> lost, vector<int> reserve);
+namespace 큰수만들기 {
+    string solution(string number, int k);
 }
 int main()
 {
-    int n = 6;
-    vector<int> lost = { 1, 3 };
-    vector<int> reserve = { 2,4 };
+    string number = "7541651";
+    int k = 3;
 
-    int answer = 체육복::solution1(n, lost, reserve);
+    string answer = 큰수만들기::solution(number, k);
 
     return 0;
 }
