@@ -33,11 +33,11 @@ vector<int> solution(int brown, int yellow) {
     return answer;
 }
 
-int main()
-{
-    int brown = 16;
-    int yellow = 9;
+// int main()
+// {
+//     int brown = 16;
+//     int yellow = 9;
 
-    auto ans = solution(brown, yellow);
-    return 0;
-}
+//     auto ans = solution(brown, yellow);
+//     return 0;
+// }
