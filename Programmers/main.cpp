@@ -3,15 +3,16 @@
 
 using namespace std;
 
-namespace 큰수만들기 {
-    string solution(string number, int k);
+namespace 단속카메라 {
+    int solution(vector<vector<int>> routes);
 }
+
 int main()
 {
-    string number = "7541651";
-    int k = 3;
+    int n = 4;
+    vector<vector<int>> routes = {{-20, -15}, {-14, -5}, {-18, -13}, {-5, -3}};
 
-    string answer = 큰수만들기::solution(number, k);
+    int answer = 단속카메라::solution(routes);
 
     return 0;
 }
