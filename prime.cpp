@@ -44,10 +44,10 @@ int solution(string numbers)
     return distinctNumbers.size();
 }
 
-int main()
-{
-    string numbers = "011";
-    cout << solution(numbers);
+// int main()
+// {
+//     string numbers = "011";
+//     cout << solution(numbers);
 
-    return 0;
-}
+//     return 0;
+// }
