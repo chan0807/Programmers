@@ -25,6 +25,9 @@
     <Filter Include="main\탐욕법\Lv3">
       <UniqueIdentifier>{fd9bd262-722d-4f49-a0c1-2f26d42b6430}</UniqueIdentifier>
     </Filter>
+    <Filter Include="main\동적계획법">
+      <UniqueIdentifier>{1474b2ed-67be-47cd-a42f-c4cbdd04d423}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="단속카메라.cpp">
       <Filter>main\탐욕법\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="정수삼각형.cpp">
+      <Filter>main\동적계획법</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
