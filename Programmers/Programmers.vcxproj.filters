@@ -52,6 +52,12 @@
     <Filter Include="source\탐욕법\Lv3">
       <UniqueIdentifier>{6dd2cb74-e233-4346-804e-ff21d1534a4d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\동적계획법%28DP%29">
+      <UniqueIdentifier>{8c948c75-774a-4088-a563-bdb1a3514bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\동적계획법%28DP%29\Lv3">
+      <UniqueIdentifier>{27fe9352-e708-48b7-af64-66eec52b300d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -101,6 +107,9 @@
     </ClCompile>
     <ClCompile Include="단속카메라.cpp">
       <Filter>source\탐욕법\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="정수_삼각형.cpp">
+      <Filter>source\동적계획법%28DP%29\Lv3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
