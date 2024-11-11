@@ -9,8 +9,8 @@ namespace Á¤¼ö_»ï°¢Çü {
 		int total_cnt = triangle.size() - 1;
 		for (int i = 0; i < total_cnt; i++) {
 
-			vector<int>& prev = triangle[0];
-			vector<int>& current = triangle[1];
+			vector<int>& prev = triangle[i];
+			vector<int>& current = triangle[i + 1];
 
 			for (int j = 0; j < current.size(); j++) {
 				if (j == 0) {
@@ -23,10 +23,8 @@ namespace Á¤¼ö_»ï°¢Çü {
 					current[j] += max(prev[j - 1], prev[j]);
 				}
 			}
-
-			triangle.erase(triangle.begin());
 		}
-		answer = *max_element(triangle[0].begin(), triangle[0].end());
+		answer = *max_element(triangle.back().begin(), triangle.back().end());
 		return answer;
 	}
 }
