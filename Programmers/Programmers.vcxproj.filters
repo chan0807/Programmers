@@ -111,5 +111,8 @@
     <ClCompile Include="정수_삼각형.cpp">
       <Filter>source\동적계획법%28DP%29\Lv3</Filter>
     </ClCompile>
+    <ClCompile Include="등굣길.cpp">
+      <Filter>source\동적계획법%28DP%29\Lv3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
