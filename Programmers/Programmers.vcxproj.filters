@@ -28,6 +28,9 @@
     <Filter Include="main\동적계획법">
       <UniqueIdentifier>{1474b2ed-67be-47cd-a42f-c4cbdd04d423}</UniqueIdentifier>
     </Filter>
+    <Filter Include="main\동적계획법\Lv3">
+      <UniqueIdentifier>{391fa277-7d89-4411-ae86-ada8ecd19957}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -55,7 +58,10 @@
       <Filter>main\탐욕법\Lv3</Filter>
     </ClCompile>
     <ClCompile Include="정수삼각형.cpp">
-      <Filter>main\동적계획법</Filter>
+      <Filter>main\동적계획법\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="등굣길.cpp">
+      <Filter>main\동적계획법\Lv3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
