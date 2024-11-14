@@ -64,6 +64,9 @@
     <Filter Include="source\DFS/BFS\Lv3">
       <UniqueIdentifier>{50b98cad-f8d9-46d6-95bb-ccfc34b4395f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\DFS/BFS\Lv2">
+      <UniqueIdentifier>{95d35127-4e12-46d6-9590-18b2d2d3bf62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -122,6 +125,9 @@
     </ClCompile>
     <ClCompile Include="네트워크.cpp">
       <Filter>source\DFS/BFS\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟넘버.cpp">
+      <Filter>source\DFS/BFS\Lv2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
