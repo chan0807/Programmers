@@ -132,6 +132,7 @@
     <ClCompile Include="K번째수.cpp" />
     <ClCompile Include="가장_큰_수.cpp" />
     <ClCompile Include="기능개발.cpp" />
+    <ClCompile Include="네트워크.cpp" />
     <ClCompile Include="단속카메라.cpp" />
     <ClCompile Include="더_맵게.cpp" />
     <ClCompile Include="등굣길.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="카펫.cpp" />
     <ClCompile Include="큰_수_만들기.cpp" />
+    <ClCompile Include="타겟넘버.cpp" />
     <ClCompile Include="피로도.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

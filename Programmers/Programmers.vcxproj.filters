@@ -58,6 +58,15 @@
     <Filter Include="source\동적계획법%28DP%29\Lv3">
       <UniqueIdentifier>{27fe9352-e708-48b7-af64-66eec52b300d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\DFS/BFS">
+      <UniqueIdentifier>{bca94bbc-9f24-4d2b-802c-5c97697814d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\DFS/BFS\Lv3">
+      <UniqueIdentifier>{50b98cad-f8d9-46d6-95bb-ccfc34b4395f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\DFS/BFS\Lv2">
+      <UniqueIdentifier>{95d35127-4e12-46d6-9590-18b2d2d3bf62}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="기능개발.cpp">
@@ -113,6 +122,12 @@
     </ClCompile>
     <ClCompile Include="등굣길.cpp">
       <Filter>source\동적계획법%28DP%29\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="네트워크.cpp">
+      <Filter>source\DFS/BFS\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟넘버.cpp">
+      <Filter>source\DFS/BFS\Lv2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
