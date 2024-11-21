@@ -40,6 +40,42 @@
     <Filter Include="main\DFS/BFS\Lv2">
       <UniqueIdentifier>{8caad170-0e48-46e8-90e4-df18aace5c0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="main\해시">
+      <UniqueIdentifier>{98b2affc-a108-4041-b136-4edc1b50d50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\해시\Lv1">
+      <UniqueIdentifier>{da15fb36-8793-4b8d-be6f-0a401017262a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\해시\Lv2">
+      <UniqueIdentifier>{41a632c0-0dda-4fcf-a141-eaef0f58dc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\스택/큐">
+      <UniqueIdentifier>{ef222ef2-0f35-4884-8d19-c1c32f432ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\스택/큐\Lv2">
+      <UniqueIdentifier>{b71b5aa3-235e-465f-8b7e-2f1d9dc65ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\힙">
+      <UniqueIdentifier>{9061d024-05e8-4a71-bff6-5575998dabf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\힙\Lv2">
+      <UniqueIdentifier>{f1017af8-1426-44f5-be23-52e706a506bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\힙\Lv3">
+      <UniqueIdentifier>{7f3e5714-fd2d-4adf-a63b-133c0d32e61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\정렬">
+      <UniqueIdentifier>{184c4a55-46e0-4d18-9166-27f598241b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\정렬\Lv1">
+      <UniqueIdentifier>{294075bb-9b2e-492f-88f9-6607e3285b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\정렬\Lv2">
+      <UniqueIdentifier>{5dcb7876-b09f-47c2-a7b2-74264d77d9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\완전탐색\Lv1">
+      <UniqueIdentifier>{c1596f66-3e53-430c-9c17-048e2ed7d8d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -81,22 +117,44 @@
     <ClCompile Include="게임맵최단거리.cpp">
       <Filter>main\DFS/BFS\Lv2</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="QueueStack.h">
-      <Filter>source</Filter>
-    </ClInclude>
-    <ClInclude Include="Hash.h">
-      <Filter>source</Filter>
-    </ClInclude>
-    <ClInclude Include="Heap.h">
-      <Filter>source</Filter>
-    </ClInclude>
-    <ClInclude Include="Array.h">
-      <Filter>source</Filter>
-    </ClInclude>
-    <ClInclude Include="FullSearch.h">
-      <Filter>source</Filter>
-    </ClInclude>
+    <ClCompile Include="완주하지 못한 선수.cpp">
+      <Filter>main\해시\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp">
+      <Filter>main\해시\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="기능개발.cpp">
+      <Filter>main\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="올바른괄호.cpp">
+      <Filter>main\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로세스.cpp">
+      <Filter>main\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격.cpp">
+      <Filter>main\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="더맵게.cpp">
+      <Filter>main\힙\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="디스크 컨트롤러.cpp">
+      <Filter>main\힙\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="이중우선순위큐.cpp">
+      <Filter>main\힙\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="K번째수.cpp">
+      <Filter>main\정렬\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 큰 수.cpp">
+      <Filter>main\정렬\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>main\완전탐색\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 찾기.cpp">
+      <Filter>main\완전탐색\Lv2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

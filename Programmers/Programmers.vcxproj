@@ -129,26 +129,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="K번째수.cpp" />
+    <ClCompile Include="가장 큰 수.cpp" />
     <ClCompile Include="게임맵최단거리.cpp" />
+    <ClCompile Include="기능개발.cpp" />
     <ClCompile Include="네트워크.cpp" />
     <ClCompile Include="단속카메라.cpp" />
+    <ClCompile Include="더맵게.cpp" />
     <ClCompile Include="등굣길.cpp" />
+    <ClCompile Include="디스크 컨트롤러.cpp" />
+    <ClCompile Include="모의고사.cpp" />
     <ClCompile Include="섬 연결하기.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="구명보트.cpp" />
+    <ClCompile Include="소수 찾기.cpp" />
+    <ClCompile Include="올바른괄호.cpp" />
+    <ClCompile Include="완주하지 못한 선수.cpp" />
+    <ClCompile Include="이중우선순위큐.cpp" />
+    <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="정수삼각형.cpp" />
+    <ClCompile Include="주식가격.cpp" />
     <ClCompile Include="체육복.cpp" />
     <ClCompile Include="카펫.cpp" />
     <ClCompile Include="큰 수 만들기.cpp" />
     <ClCompile Include="타겟넘버.cpp" />
+    <ClCompile Include="프로세스.cpp" />
     <ClCompile Include="피로도.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Array.h" />
-    <ClInclude Include="FullSearch.h" />
-    <ClInclude Include="Hash.h" />
-    <ClInclude Include="Heap.h" />
-    <ClInclude Include="QueueStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
