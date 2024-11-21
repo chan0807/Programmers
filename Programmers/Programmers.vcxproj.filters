@@ -31,6 +31,15 @@
     <Filter Include="main\동적계획법\Lv3">
       <UniqueIdentifier>{391fa277-7d89-4411-ae86-ada8ecd19957}</UniqueIdentifier>
     </Filter>
+    <Filter Include="main\DFS/BFS">
+      <UniqueIdentifier>{180dd0d4-8ce5-4031-be63-7009f0ca9411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\DFS/BFS\Lv3">
+      <UniqueIdentifier>{1621feb8-0640-4bf9-bbeb-71bc1a5455a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\DFS/BFS\Lv2">
+      <UniqueIdentifier>{8caad170-0e48-46e8-90e4-df18aace5c0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -62,6 +71,15 @@
     </ClCompile>
     <ClCompile Include="등굣길.cpp">
       <Filter>main\동적계획법\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟넘버.cpp">
+      <Filter>main\DFS/BFS\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="네트워크.cpp">
+      <Filter>main\DFS/BFS\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="게임맵최단거리.cpp">
+      <Filter>main\DFS/BFS\Lv2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
