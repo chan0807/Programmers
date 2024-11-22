@@ -129,5 +129,8 @@
     <ClCompile Include="타겟넘버.cpp">
       <Filter>source\DFS/BFS\Lv2</Filter>
     </ClCompile>
+    <ClCompile Include="게임_맵_최단거리.cpp">
+      <Filter>source\DFS/BFS\Lv2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

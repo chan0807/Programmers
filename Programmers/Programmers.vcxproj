@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="K번째수.cpp" />
     <ClCompile Include="가장_큰_수.cpp" />
+    <ClCompile Include="게임_맵_최단거리.cpp" />
     <ClCompile Include="기능개발.cpp" />
     <ClCompile Include="네트워크.cpp" />
     <ClCompile Include="단속카메라.cpp" />
