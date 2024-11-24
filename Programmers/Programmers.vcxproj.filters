@@ -162,5 +162,8 @@
     <ClCompile Include="디스크 컨트롤러.cpp">
       <Filter>소스 파일\힙\Lv3</Filter>
     </ClCompile>
+    <ClCompile Include="단어변환.cpp">
+      <Filter>소스 파일\DFS/BFS\Lv3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

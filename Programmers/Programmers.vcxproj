@@ -135,6 +135,7 @@
     <ClCompile Include="기능개발.cpp" />
     <ClCompile Include="네트워크.cpp" />
     <ClCompile Include="단속카메라.cpp" />
+    <ClCompile Include="단어변환.cpp" />
     <ClCompile Include="더맵게.cpp" />
     <ClCompile Include="등굣길.cpp" />
     <ClCompile Include="디스크 컨트롤러.cpp" />
