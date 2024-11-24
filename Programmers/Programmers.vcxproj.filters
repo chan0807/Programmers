@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\DFS/BFS">
+      <UniqueIdentifier>{82916166-c4a2-4a36-99ea-634c573ec6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DFS/BFS\Lv2">
+      <UniqueIdentifier>{7a0a3fd5-4f8e-42ab-b094-c25cbb14f2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DFS/BFS\Lv3">
+      <UniqueIdentifier>{b496d3e5-919c-453c-8c1d-a2a74576f2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\동적계획법">
+      <UniqueIdentifier>{a49d6290-da27-4cb1-8a81-67e376710ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\동적계획법\Lv3">
+      <UniqueIdentifier>{98bb8f7a-34bf-430d-911f-31eb73b6e9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\스택/큐">
+      <UniqueIdentifier>{21fe7aa6-ef8d-494e-b271-e026f95b6aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\스택/큐\Lv2">
+      <UniqueIdentifier>{5658f77a-cb9b-4d2e-a741-c2e9528fde82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\완전탐색">
+      <UniqueIdentifier>{1c8a218e-7808-4ecb-9cf8-fd15c3388ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\완전탐색\Lv1">
+      <UniqueIdentifier>{9e247dbd-cc7e-4cac-9b75-ee6dbe93b42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\완전탐색\Lv2">
+      <UniqueIdentifier>{860d3fc7-625d-4d90-85ba-2606e2f4975c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\정렬">
+      <UniqueIdentifier>{479a8655-8609-49fd-8d81-15455ba1de46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\정렬\Lv1">
+      <UniqueIdentifier>{1e88c889-e2dd-4c65-a912-0478c83687cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\정렬\Lv2">
+      <UniqueIdentifier>{f16c0203-e9f9-421e-bf16-bc5f9c87a84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\탐욕법">
+      <UniqueIdentifier>{c258ae4a-fd59-4b9e-812f-6e9cd7176212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\탐욕법\Lv1">
+      <UniqueIdentifier>{9356a365-f579-4e7d-82f9-2f30939801b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\탐욕법\Lv2">
+      <UniqueIdentifier>{28eef404-8545-4289-9fc8-0b50e4a32bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\탐욕법\Lv3">
+      <UniqueIdentifier>{911aff17-7392-4e55-91e0-95f4c462393e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\해시">
+      <UniqueIdentifier>{6e9b3948-1050-49cd-9ed5-6708936fbc49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\해시\Lv1">
+      <UniqueIdentifier>{3abba1c4-56d8-476d-9c95-985a3ae4e06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\해시\Lv2">
+      <UniqueIdentifier>{759a66d9-f0db-441c-b3f2-6a9f6ec3f018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\힙">
+      <UniqueIdentifier>{965835c7-21af-4e5c-b260-4872ad0e7896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\힙\Lv2">
+      <UniqueIdentifier>{4176eec4-bdfa-453a-8d82-b41783ce5ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\힙\Lv3">
+      <UniqueIdentifier>{5134f14b-22ce-413d-839d-c997abfd7432}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="게임맵최단거리.cpp">
+      <Filter>소스 파일\DFS/BFS\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟넘버.cpp">
+      <Filter>소스 파일\DFS/BFS\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="네트워크.cpp">
+      <Filter>소스 파일\DFS/BFS\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="등굣길.cpp">
+      <Filter>소스 파일\동적계획법\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="정수삼각형.cpp">
+      <Filter>소스 파일\동적계획법\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="기능개발.cpp">
+      <Filter>소스 파일\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="올바른괄호.cpp">
+      <Filter>소스 파일\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="주식가격.cpp">
+      <Filter>소스 파일\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="프로세스.cpp">
+      <Filter>소스 파일\스택/큐\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="모의고사.cpp">
+      <Filter>소스 파일\완전탐색\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="카펫.cpp">
+      <Filter>소스 파일\완전탐색\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="피로도.cpp">
+      <Filter>소스 파일\완전탐색\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="소수 찾기.cpp">
+      <Filter>소스 파일\완전탐색\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="K번째수.cpp">
+      <Filter>소스 파일\정렬\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="가장 큰 수.cpp">
+      <Filter>소스 파일\정렬\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="체육복.cpp">
+      <Filter>소스 파일\탐욕법\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="구명보트.cpp">
+      <Filter>소스 파일\탐욕법\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="큰 수 만들기.cpp">
+      <Filter>소스 파일\탐욕법\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="단속카메라.cpp">
+      <Filter>소스 파일\탐욕법\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="섬 연결하기.cpp">
+      <Filter>소스 파일\탐욕법\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="완주하지 못한 선수.cpp">
+      <Filter>소스 파일\해시\Lv1</Filter>
+    </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp">
+      <Filter>소스 파일\해시\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="더맵게.cpp">
+      <Filter>소스 파일\힙\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="이중우선순위큐.cpp">
+      <Filter>소스 파일\힙\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="디스크 컨트롤러.cpp">
+      <Filter>소스 파일\힙\Lv3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
