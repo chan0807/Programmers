@@ -111,9 +111,6 @@
     <ClCompile Include="큰_수_만들기.cpp">
       <Filter>source\탐욕법\Lv2</Filter>
     </ClCompile>
-    <ClCompile Include="섬_연결하기.cpp">
-      <Filter>source\탐욕법\Lv3</Filter>
-    </ClCompile>
     <ClCompile Include="단속카메라.cpp">
       <Filter>source\탐욕법\Lv3</Filter>
     </ClCompile>
@@ -131,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="게임_맵_최단거리.cpp">
       <Filter>source\DFS/BFS\Lv2</Filter>
+    </ClCompile>
+    <ClCompile Include="단어_변환.cpp">
+      <Filter>source\DFS/BFS\Lv3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
