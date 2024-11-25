@@ -135,11 +135,11 @@
     <ClCompile Include="기능개발.cpp" />
     <ClCompile Include="네트워크.cpp" />
     <ClCompile Include="단속카메라.cpp" />
+    <ClCompile Include="단어_변환.cpp" />
     <ClCompile Include="더_맵게.cpp" />
     <ClCompile Include="등굣길.cpp" />
     <ClCompile Include="디스크_컨트롤러.cpp" />
     <ClCompile Include="모의고사.cpp" />
-    <ClCompile Include="섬_연결하기.cpp" />
     <ClCompile Include="소수_찾기.cpp" />
     <ClCompile Include="올바른_괄호.cpp" />
     <ClCompile Include="이중우선순위큐.cpp" />
