@@ -146,6 +146,7 @@
     <ClCompile Include="올바른괄호.cpp" />
     <ClCompile Include="완주하지 못한 선수.cpp" />
     <ClCompile Include="이중우선순위큐.cpp" />
+    <ClCompile Include="입국심사.cpp" />
     <ClCompile Include="전화번호 목록.cpp" />
     <ClCompile Include="정수삼각형.cpp" />
     <ClCompile Include="주식가격.cpp" />

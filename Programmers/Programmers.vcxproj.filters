@@ -82,6 +82,12 @@
     <Filter Include="소스 파일\힙\Lv3">
       <UniqueIdentifier>{5134f14b-22ce-413d-839d-c997abfd7432}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\이분탐색">
+      <UniqueIdentifier>{36b5cda5-acf6-4f2b-aeff-02a0d50e8edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\이분탐색\Lv3">
+      <UniqueIdentifier>{c1085894-bd37-48f3-8f87-c51d2cd82849}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -167,6 +173,9 @@
     </ClCompile>
     <ClCompile Include="여행경로.cpp">
       <Filter>소스 파일\DFS/BFS\Lv3</Filter>
+    </ClCompile>
+    <ClCompile Include="입국심사.cpp">
+      <Filter>소스 파일\이분탐색\Lv3</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
